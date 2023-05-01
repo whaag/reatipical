@@ -42,3 +42,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Furute implementations
 
+Losely inspired in the [React TypeScript Tutorial](https://youtu.be/TiSGujM22OI)
+
+1 - Basic Props
+  Added Welcome
+2 - Advanced Props
+  ActionableItems, Heads, and sponser
+  Updated Welcome
