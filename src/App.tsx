@@ -3,6 +3,8 @@ import { Welcome } from './components/Welcome';
 import { ActionableItems, item } from './components/ActionableItems'; 
 import { Heads } from './components/Heads';
 import { Sponser } from './components/Sponser';
+import { Button } from './components/Button';
+import { Input } from './components/Input';
 
 function App() {
   const directives: item[] = [
@@ -27,6 +29,12 @@ function App() {
       <Sponser>
         <Heads>Inside the yode</Heads>
       </Sponser>
+      <Button
+        handleClick={(event, id) => {
+          console.log('buttono cricodo', event, id)
+        }}
+      />
+      <Input value='' hanleChange={(event) => console.log(event)} />
     </div>
   );
 }
