@@ -5,12 +5,10 @@ export const LoggedIn = () => {
   
   const handleLogin = () => {
     setIsLoggedIn(true);
-    console.log(isLoggedIn);
   }
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    console.log(isLoggedIn);
   }
 
   return (
