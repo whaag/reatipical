@@ -6,6 +6,7 @@ import { Sponser } from './components/Sponser';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
 import { Container } from './components/Container';
+import { StateTest } from './components/StateTest';
 
 function App() {
   const directives: item[] = [
@@ -40,6 +41,9 @@ function App() {
         border: '5px solid red',
         padding: '1rem'
       }}></Container>
+      <hr />
+      <StateTest />
+      <hr />
     </div>
   );
 }
