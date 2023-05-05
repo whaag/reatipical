@@ -7,6 +7,8 @@ import { Button } from './components/Button';
 import { Input } from './components/Input';
 import { Container } from './components/Container';
 import { StateTest } from './components/StateTest';
+import { LoggedIn } from './components/LoggedIn';
+import { User } from './components/User';
 
 function App() {
   const directives: item[] = [
@@ -44,6 +46,8 @@ function App() {
       <hr />
       <StateTest />
       <hr />
+      <LoggedIn />
+      <User />
     </div>
   );
 }
