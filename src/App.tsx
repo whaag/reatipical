@@ -9,6 +9,7 @@ import { Container } from './components/Container';
 import { StateTest } from './components/StateTest';
 import { LoggedIn } from './components/LoggedIn';
 import { User } from './components/User';
+import { Counter } from './components/Counter';
 
 function App() {
   const directives: item[] = [
@@ -48,6 +49,8 @@ function App() {
       <hr />
       <LoggedIn />
       <User />
+      <hr />
+      <Counter />
     </div>
   );
 }
