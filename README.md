@@ -55,3 +55,5 @@ Losely inspired in the [React TypeScript Tutorial](https://youtu.be/TiSGujM22OI)
   Container
 ### 5 - useState
   User and LoggedIn
+### 6 - useReducer
+  Counter
