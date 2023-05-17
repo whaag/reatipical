@@ -57,3 +57,8 @@ Losely inspired in the [React TypeScript Tutorial](https://youtu.be/TiSGujM22OI)
   User and LoggedIn
 ### 6 - useReducer
   Counter
+### 7 = useContext
+  new directory context
+  context/Box
+  context/theme
+  context/ThemeContext
