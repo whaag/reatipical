@@ -8,10 +8,13 @@ import { Input } from './components/Input';
 import { Container } from './components/Container';
 import { StateTest } from './components/StateTest';
 import { LoggedIn } from './components/LoggedIn';
-import { User } from './components/User';
 import { Counter } from './components/Counter';
 import { Box } from './components/context/Box';
 import { ThemeContextProvider } from './components/context/ThemeContext';
+import { UserContextProvider } from './components/context/UserContext';
+import { User } from './components/context/User';
+import { DomRef } from './components/ref/DomRef';
+import { MutableRef } from './components/ref/MutableRef';
 
 function App() {
   const directives: item[] = [
@@ -50,13 +53,20 @@ function App() {
       <StateTest />
       <hr />
       <LoggedIn />
-      <User />
+      {/* <User /> */}
       <hr />
       <Counter />
       <hr />
       <ThemeContextProvider>
         <Box />
       </ThemeContextProvider>
+      <hr />
+      <UserContextProvider>
+        <User />
+      </UserContextProvider>
+      <hr />
+      <DomRef />
+      <MutableRef />
     </div>
   );
 }

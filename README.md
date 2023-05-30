@@ -43,6 +43,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Furute implementations
 
 Losely inspired in the [React TypeScript Tutorial](https://youtu.be/TiSGujM22OI)
+2023 revision - [React Ecosystem in 2023](https://www.youtube.com/watch?v=6j9tnGMbm2c)
 
 ### 1 - Basic Props
   Added Welcome
@@ -62,3 +63,9 @@ Losely inspired in the [React TypeScript Tutorial](https://youtu.be/TiSGujM22OI)
   context/Box
   context/theme
   context/ThemeContext
+  context/UserContext
+  context/User
+### 8 = userRef
+  new directory ref
+  ref/DomRef
+  ref/MutableRef
